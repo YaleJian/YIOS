@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE03317C23D44E8900C08952 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE03317E23D44E8900C08952 /* InfoPlist.strings */; };
 		DEA5640423D44BC500FF2D31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA5640323D44BC500FF2D31 /* AppDelegate.swift */; };
 		DEA5640623D44BC500FF2D31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA5640523D44BC500FF2D31 /* SceneDelegate.swift */; };
 		DEA5640823D44BC500FF2D31 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA5640723D44BC500FF2D31 /* ContentView.swift */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE03317D23D44E8900C08952 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE03317F23D44F5800C08952 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		DEA5640023D44BC500FF2D31 /* YIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEA5640323D44BC500FF2D31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEA5640523D44BC500FF2D31 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +102,7 @@
 		DEA5640223D44BC500FF2D31 /* YIOS */ = {
 			isa = PBXGroup;
 			children = (
+				DE03317E23D44E8900C08952 /* InfoPlist.strings */,
 				DEA5640323D44BC500FF2D31 /* AppDelegate.swift */,
 				DEA5640523D44BC500FF2D31 /* SceneDelegate.swift */,
 				DEA5640723D44BC500FF2D31 /* ContentView.swift */,
@@ -222,6 +226,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = DEA563F723D44BC500FF2D31;
 			productRefGroup = DEA5640123D44BC500FF2D31 /* Products */;
@@ -241,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEA5641023D44BC500FF2D31 /* LaunchScreen.storyboard in Resources */,
+				DE03317C23D44E8900C08952 /* InfoPlist.strings in Resources */,
 				DEA5640D23D44BC500FF2D31 /* Preview Assets.xcassets in Resources */,
 				DEA5640A23D44BC500FF2D31 /* Assets.xcassets in Resources */,
 			);
@@ -305,6 +311,15 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		DE03317E23D44E8900C08952 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE03317D23D44E8900C08952 /* en */,
+				DE03317F23D44F5800C08952 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		DEA5640E23D44BC500FF2D31 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -320,6 +335,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -380,6 +396,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -433,7 +450,7 @@
 		DEA5642B23D44BC500FF2D31 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = yalejian;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"YIOS/Preview Content\"";
 				DEVELOPMENT_TEAM = 3H25T2MDRY;
@@ -453,7 +470,7 @@
 		DEA5642C23D44BC500FF2D31 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = yalejian;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"YIOS/Preview Content\"";
 				DEVELOPMENT_TEAM = 3H25T2MDRY;
