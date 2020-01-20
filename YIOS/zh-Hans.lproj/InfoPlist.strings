@@ -5,4 +5,4 @@
   Created by Yale Jian on 2020/1/19.
   Copyright © 2020 Yale Jian. All rights reserved.
 */
-CFBundleDisplayName = "扬歌";
+"CFBundleDisplayName" = "扬歌";
