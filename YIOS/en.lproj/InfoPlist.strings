@@ -6,3 +6,4 @@
   Copyright © 2020 Yale Jian. All rights reserved.
 */
 "CFBundleDisplayName" = "Yale Jian";
+UILaunchStoryboardName = "LaunchScreen_en";

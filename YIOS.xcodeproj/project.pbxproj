@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		DE03317C23D44E8900C08952 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE03317E23D44E8900C08952 /* InfoPlist.strings */; };
+		DE39487023D5947A00865FCE /* LaunchScreen_en.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE39486F23D5947A00865FCE /* LaunchScreen_en.storyboard */; };
+		DE39487223D59C3700865FCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE39487123D59C3700865FCE /* LaunchScreen.storyboard */; };
 		DEA5640423D44BC500FF2D31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA5640323D44BC500FF2D31 /* AppDelegate.swift */; };
 		DEA5640623D44BC500FF2D31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA5640523D44BC500FF2D31 /* SceneDelegate.swift */; };
 		DEA5640823D44BC500FF2D31 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA5640723D44BC500FF2D31 /* ContentView.swift */; };
 		DEA5640A23D44BC500FF2D31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA5640923D44BC500FF2D31 /* Assets.xcassets */; };
 		DEA5640D23D44BC500FF2D31 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA5640C23D44BC500FF2D31 /* Preview Assets.xcassets */; };
-		DEA5641023D44BC500FF2D31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA5640E23D44BC500FF2D31 /* LaunchScreen.storyboard */; };
 		DEA5641B23D44BC500FF2D31 /* YIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA5641A23D44BC500FF2D31 /* YIOSTests.swift */; };
 		DEA5642623D44BC500FF2D31 /* YIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA5642523D44BC500FF2D31 /* YIOSUITests.swift */; };
 /* End PBXBuildFile section */
@@ -39,13 +40,14 @@
 		DE03317D23D44E8900C08952 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DE1E98D323D5758400039F91 /* YIOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YIOS.entitlements; sourceTree = "<group>"; };
 		DE39486A23D578C600865FCE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		DE39486F23D5947A00865FCE /* LaunchScreen_en.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen_en.storyboard; sourceTree = "<group>"; };
+		DE39487123D59C3700865FCE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEA5640023D44BC500FF2D31 /* YIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEA5640323D44BC500FF2D31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEA5640523D44BC500FF2D31 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DEA5640723D44BC500FF2D31 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DEA5640923D44BC500FF2D31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEA5640C23D44BC500FF2D31 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DEA5640F23D44BC500FF2D31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEA5641123D44BC500FF2D31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEA5641623D44BC500FF2D31 /* YIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEA5641A23D44BC500FF2D31 /* YIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YIOSTests.swift; sourceTree = "<group>"; };
@@ -80,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE39486E23D5941E00865FCE /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				DE39486F23D5947A00865FCE /* LaunchScreen_en.storyboard */,
+				DE39487123D59C3700865FCE /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
 		DEA563F723D44BC500FF2D31 = {
 			isa = PBXGroup;
 			children = (
@@ -103,13 +114,13 @@
 		DEA5640223D44BC500FF2D31 /* YIOS */ = {
 			isa = PBXGroup;
 			children = (
+				DE39486E23D5941E00865FCE /* LaunchScreen */,
 				DE1E98D323D5758400039F91 /* YIOS.entitlements */,
 				DE03317E23D44E8900C08952 /* InfoPlist.strings */,
 				DEA5640323D44BC500FF2D31 /* AppDelegate.swift */,
 				DEA5640523D44BC500FF2D31 /* SceneDelegate.swift */,
 				DEA5640723D44BC500FF2D31 /* ContentView.swift */,
 				DEA5640923D44BC500FF2D31 /* Assets.xcassets */,
-				DEA5640E23D44BC500FF2D31 /* LaunchScreen.storyboard */,
 				DEA5641123D44BC500FF2D31 /* Info.plist */,
 				DEA5640B23D44BC500FF2D31 /* Preview Content */,
 			);
@@ -247,10 +258,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEA5641023D44BC500FF2D31 /* LaunchScreen.storyboard in Resources */,
 				DE03317C23D44E8900C08952 /* InfoPlist.strings in Resources */,
 				DEA5640D23D44BC500FF2D31 /* Preview Assets.xcassets in Resources */,
 				DEA5640A23D44BC500FF2D31 /* Assets.xcassets in Resources */,
+				DE39487223D59C3700865FCE /* LaunchScreen.storyboard in Resources */,
+				DE39487023D5947A00865FCE /* LaunchScreen_en.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,14 +332,6 @@
 				DE39486A23D578C600865FCE /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		DEA5640E23D44BC500FF2D31 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DEA5640F23D44BC500FF2D31 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
